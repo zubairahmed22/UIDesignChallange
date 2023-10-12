@@ -1,0 +1,366 @@
+
+.mainDev{
+    display: flex;
+    
+}
+.leftDev{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 70px;
+    height: 100vh;
+    top: 0px;
+    bottom: 0;
+    
+   
+
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.leftDev >ul > li {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 160px;
+    border-radius: 7px;
+    color: #52555d;
+    
+}
+.firtDev{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+ 
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.01rem;
+    color: rgb(10, 11, 13);
+    margin-top: 10px;
+}
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.ZKtext{
+    font-size: 13px;
+    font-style: normal;
+    margin-right: 100px;
+    line-height: 120%;
+    letter-spacing: -0.01rem;
+    color: rgb(10, 11, 13);
+}
+.ButtonDiv1{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 45px;
+    margin-top: 20px;
+
+
+}
+.ButtonDiv1 > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 8px;
+    padding: 13px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 115px;
+    background-color: white;
+    font-size: 15px;
+    color: #0a0b0d;
+    
+}
+.SecondDiv{
+    margin-bottom: 50px;
+}
+.ButtonDiv{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 25px 27px;
+    
+    background: rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(16px);
+    border-radius: 12px;
+    margin-right: 30px;
+
+
+}
+.btnFirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 12px;
+    width: 200px;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(27, 29, 34);
+    margin-bottom: 20px;
+}
+.moveFund{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 8px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: rgb(41, 44, 52);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+    margin-bottom: 20px;
+}
+.secondList{
+    margin-top: 200px;
+}
+.secondList >ul > li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+   
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 180px;
+    border-radius: 7px;
+    color: #52555d;
+  
+    
+
+}
+.networkLi{
+    /* font-size: 14px;
+    font-family: 500;
+    font-family: "Roobert", sans-serif; */
+}
+.iamgeIcon{
+    width: 20px;
+}
+ /* ul > li:active{
+    background-color: #f7f7f8;
+    color: #000;
+    padding: 15px 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 160px;
+    border-radius: 7px;
+
+} */
+.Rightdev{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    overflow: auto;
+    max-height: 100vh;
+    justify-content: space-between;
+    background: radial-gradient(66.32% 66.32% at 54.13% 113.95%,rgba(108,38,255,0.2) 0,rgba(242,89,255,0) 100%),linear-gradient(211.99deg,rgba(65,157,241,0.2) -4.17%,rgba(45,143,234,0) 68.7%),radial-gradient(100% 100% at 28.65% 0,#d5bdf5 0,rgba(250,247,254,0) 100%);
+}
+/* Right Main div css */
+.RightMain{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow:-y scroll;
+    
+}
+.Asset{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+
+   
+}
+.devider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   border-top: 0.5px solid #d5d8dd;
+   margin-top: 10px;
+   padding-top: 10px;
+   
+   
+}
+.name{
+    color: #b0b4bb;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-left: 30px;
+}
+
+.Balance{
+    color: #b0b4bb;
+    font-size: .875rem;
+    line-height: 1.25rem;
+   
+}
+.action{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #b0b4bb;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-right: 150px;
+    
+   
+}
+.action1{
+    
+    
+    color: #b0b4bb;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.devider > div{
+display: flex;
+justify-content: flex-end;
+}
+.RightAssetDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+.LeftAssetDiv{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menuList{
+    display: flex;
+    gap: 8px;
+}
+.buttonbox > button {
+    outline: none;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 16px auto 0;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    border: 1px solid #ececed;
+    box-shadow: 0 6px 16px -6px rgba(17,12,34,.10196078431372549);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchBox > input{
+border: none;
+width: 210px;
+
+background-color: #f7f7f8;
+padding:  15px ;
+border-radius: 5px;
+outline: none;
+padding-left: 40px;
+font-size: 15px;
+
+}
+.searchicon{
+    position: absolute;
+    color: #0a0b0d;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.menuList > p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #7b3fe4;
+    display: flex;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logoIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.buttonContainer{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    
+}
+.numberText{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.classtext > p{
+    font-size: 14px;
+    font-weight: 700
+}
+.numberText > p{
+    font-size: 14px;
+    font-weight: 700
+}
+ span{
+    font-size: 14px;
+    color: #52555d;
+    font-weight: 400;
+}
+.buttonContainer > button{
+    margin: 0 0.25rem;
+    border: 1px solid #dddfe0;
+    border-radius: 8px;
+    padding: 7px 20px;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.08), inset 0 1px 0.5px hsla(0,0%,100%,.16);
+    background: #fff;
+    margin-top: 15px;
+}
