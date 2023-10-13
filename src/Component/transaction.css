@@ -1,0 +1,71 @@
+.mainTransactonDiv{
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-start;
+  width: 100%;
+  align-items: flex-start;
+    
+
+}
+.Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.transHeading{
+    font-size: 2rem;
+    line-height: 44px;
+    color: #0a0b0d;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.transPra{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #52555d;
+    margin-top: 10px;
+
+}
+.TransHeader{
+ display: flex;
+ gap: 30px;
+ border-bottom: 1px solid lightgray;
+ padding: 10px 25px;
+}
+.TransHeader > p{
+    font-weight: 700;
+    letter-spacing: normal;
+    color: #52555d;
+    cursor: pointer;
+}
+.TransHeader > p:active:hover{
+    font-weight: 700;
+    letter-spacing: normal;
+    color: #7b3fe4;
+    cursor: pointer;
+}
+
+.allTransaction{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.TransImageBox > img{ 
+margin-top: 70px
+
+}
+.TransImageBox > p {
+    font-size: .875rem;
+    font-weight: 500;
+}

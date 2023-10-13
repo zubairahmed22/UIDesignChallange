@@ -16,3 +16,46 @@
     color: #52555d;
 }
 
+.rightBox{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    background-color:#f5f5fd;
+    min-height: auto;
+    border-radius: 0px 20px 20px 0px;
+    margin-bottom: 18px;
+}
+.headerbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0px 20px 0px 0px;
+    height: 38px;
+    align-items: center;
+}
+.headerbox > p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #52555d;
+    margin-left: 10px;
+
+}
+.headerbox > span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7b3fe4;
+    cursor: pointer;
+}
+.imageBox > img{
+    margin-top: 100px;
+}
+.imageBox > p {
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 12px;
+    color: #b0b4bb;
+}

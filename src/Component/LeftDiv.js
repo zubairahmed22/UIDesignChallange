@@ -15,8 +15,8 @@ const LeftDiv = () => {
   
       
         <li> <img src={walletIcon}/><Link to={"/"} className='linkstyle'>Wallet</Link></li>
-        <li> <img src={BridgeIcon}/><Link to={"Bridge"} className='linkstyle'>Bridge </Link ></li>
-        <li> <img src={NestedIcon}/> Transactions </li>
+        <li> <img src={BridgeIcon}/><Link to={"Bridge"} className='linkstyle'>Bridge </Link></li>
+        <li> <img src={NestedIcon}/><Link to={"Transactions"} className='linkstyle'> Transactions</Link> </li>
         
     </ul>
     <div className='secondList'>

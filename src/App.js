@@ -7,10 +7,10 @@ import {
   Route,
   useRoutes,
 } from "react-router-dom";
-
+import Transactions from './Component/Transactions';
 import Bridge from './Component/Bridge';
 import Home from './Home';
-import LeftDiv from './Component/LeftDiv';
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +23,8 @@ function App() {
      
    <Route path="/" element={<Home/>}/>
    <Route path="Bridge" element={<Bridge/>}/>
-
+   <Route path='Transactions' element={<Transactions/>}/>
+  
    </Routes>
    
    </BrowserRouter>

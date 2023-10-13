@@ -4,6 +4,7 @@ import birdgeboxicon from "./bridge-mode-toggle.svg"
 import ethChain from "./eth-chain.svg"
 import zkevm from "./zkEVM (1).svg"
 import Eth from "./eth (1).svg"
+import imagebox from "./empty-txns.png"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "./Bridge.css"
 import LeftDiv from './LeftDiv'
@@ -78,6 +79,17 @@ const Bridge = () => {
          </div>
       </div>
       </div>  
+      <div className='rightBox'>
+        <div className='headerbox'>
+          <p>Recent Transactions</p>
+          <span>View All</span>
+        </div>
+        <div className='imageBox'>
+          <img src={imagebox}/>
+          <p>There are no pending transactions, but you can start one with a single click.</p>
+        </div>
+      </div>
+      
       </div> 
       </div>   
       </div>
